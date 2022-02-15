@@ -4,22 +4,24 @@ body{
     background-size:cover;
     
 }
+
 #topMenu{
     display: flex;
     background-image: linear-gradient(gold, black);
 }
 
 #topMenu li{
-    color: rgb(160, 7, 7);
     text-decoration: none;
-    display: block;
-    padding: 15px;
+    display: inline;
+    margin: 0 0 0 15px;
+    padding: 10px;
     
 }
 #topMenu li a{
     color: #ece800;
     display: block;
     line-height: 30px;
+    margin-top: 10px;
     padding: 0 30px;
     text-decoration: none;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -30,6 +32,10 @@ body{
     color: black;
     background-color: #dad6d6;
     border-radius: 5px;
+}
+.logo{
+    margin-bottom: 3px;
+    
 }
 .alert{
     color: gold; 
@@ -47,7 +53,29 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 65px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
    
+}
+
+.left h1, h2{
+    font-size: 85px;
+    text-shadow: 0 0 0.2em rgb(80, 56, 241), 0 0 0.2em rgb(80, 56, 241),
+    0 0 0.2em rgb(80, 56, 241);
+}
+.left h3{
+    font-size: 30px;
+    text-shadow: 0 0 0.2em rgb(80, 56, 241), 0 0 0.2em rgb(80, 56, 241),
+    0 0 0.2em rgb(80, 56, 241);
+}
+.left p{
+    font-size: 20px;
+    text-shadow: 0 0 0.2em rgb(80, 56, 241), 0 0 0.2em rgb(80, 56, 241),
+    0 0 0.2em rgb(80, 56, 241);
+
 }
 .right{
     border-radius: 10px;
@@ -106,4 +134,17 @@ footer{
     margin-bottom: 50px;
     border:black;
     float: left;
+}
+
+.bg-color{
+    background-color: #f7f8f9;
+}
+.form-cadastro{
+    height: 160vh;
+    width: auto;
+    
+}
+.area-form{
+    height: 100vh;
+    background-color: #f7f8f9;
 }
