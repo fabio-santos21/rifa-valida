@@ -33,6 +33,7 @@ body{
     background-color: #dad6d6;
     border-radius: 5px;
 }
+
 .logo{
     margin-bottom: 3px;
     
@@ -43,7 +44,7 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 .left{
-    border-radius: 10px;
+    border-radius: 30px;
     box-shadow: 10px 5px 5px gold;
     float: left;
     margin: 50px;
@@ -78,7 +79,7 @@ body{
 
 }
 .right{
-    border-radius: 10px;
+    border-radius: 30px;
     box-shadow: 10px 5px 5px gold;
     float: right;
     text-align: center;
@@ -88,9 +89,25 @@ body{
     width: 40%;
     height: 400px;
     padding: 15px 30px;
-    background-color: honeydew;
+    background-color: rgba(91, 231, 185, 0.87);
     background-position: center;
       
+}
+.direito{
+    border-radius: 30px;
+    box-shadow: 10px 5px 5px gold;
+    float: left;
+    margin: 50px;
+    width: 40%;
+    height: 400px;
+    background-image: url(imagens/fundo2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 65px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .areaNum{
     background-color: rgba(212, 206, 206, 0.24);
